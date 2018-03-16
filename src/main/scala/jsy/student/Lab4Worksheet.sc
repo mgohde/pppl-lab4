@@ -15,7 +15,8 @@ import jsy.lab4.ast._
 import jsy.student.Lab4._
 
 // Try compressRec
-//val cr1 = compressRec(List(1, 2, 2, 3, 3, 3))
+val tr=treeFromList(List(1, 2, 5, 7, 6, 8))
+sum(tr)
 
 // Parse functions with possibly multiple parameters and type annotations.
 parse("function fst(x: number, y: number): number { return x }")
